@@ -1,1 +1,1 @@
-# Next.js and Tailwind CSS Starter Kit
+# Assignment 1 - Dashboard
