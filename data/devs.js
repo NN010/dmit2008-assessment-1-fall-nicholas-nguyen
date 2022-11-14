@@ -1,4 +1,4 @@
-[
+export const devsData = [
     {
         "User ID": "7ff14",
         "name": "John Smith",
