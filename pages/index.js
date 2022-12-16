@@ -8,11 +8,21 @@ export default function Home() {
   return (
     <main class="container">
       <div>
-        {devs()};
+        <ul>
+          <li><a>{devs}</a></li>
+        </ul>
       </div>
     </main>
 
 
 
   )
+}
+
+
+export async function getStaticPaths() {
+  return {
+    paths: [{ devs: { id: '1' } }, { devs: { id: '2' } }],
+    fallback: false
+  }
 }
