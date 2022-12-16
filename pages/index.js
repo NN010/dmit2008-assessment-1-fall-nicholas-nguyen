@@ -4,9 +4,6 @@ import Tagline from "../components/tagline";
 import Navigation from "../components/navigation"
 import devs from "../data/devs.json";
 
-function h1()
-function Tagline()
-
 export default function Home() {
   return (
     <main class="container">
