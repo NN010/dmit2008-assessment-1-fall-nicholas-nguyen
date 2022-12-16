@@ -1,2 +1,4 @@
-import { link } from "index.js";
+
+
+import { link } from "../pages/index";
 
