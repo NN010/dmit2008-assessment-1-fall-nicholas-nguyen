@@ -22,7 +22,7 @@ export default function Home() {
 
 export async function getStaticPaths() {
   return {
-    paths: [{ devs: { User_ID: '7ff14' } }, { devs: { User_ID: '272dff7' } }, { devs: { User_ID: '34dff13' } },],
+    paths: [{ devs: { User_ID: '7ff14' } }, { devs: { User_ID: '272dff7' } }, { devs: { User_ID: '34dff13' } }],
     fallback: false
   }
 }
