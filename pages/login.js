@@ -4,10 +4,16 @@ import Tagline from "../components/tagline";
 import Navigation from "../components/navigation";
 import devs from "../data/devs.json";
 
-export default function Profile() {
+export default function Login() {
     return (
         <main class="container">
-            {devs}
+            <h2>Login</h2>
+            <form>
+                <div>
+
+                </div>
+            </form>
+
         </main>
     )
 }

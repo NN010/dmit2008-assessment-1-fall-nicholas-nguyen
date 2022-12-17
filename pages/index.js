@@ -9,7 +9,8 @@ export default function Home() {
     <main class="container">
       <div>
         <ul>
-          <li><a>{devs}</a></li>
+          <li><a>{devs.name}</a></li>
+
         </ul>
       </div>
     </main>
