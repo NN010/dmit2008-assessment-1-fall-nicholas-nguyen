@@ -4,6 +4,10 @@ import Tagline from "../components/tagline";
 import Navigation from "../components/navigation";
 import devs from "../data/devs.json";
 
-<div>
+export default function Profile() {
+    return (
+        <main class="container">
 
-</div>
+        </main>
+    )
+}
